@@ -12,6 +12,13 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<UniversityDBContext>(options =>
    options.UseSqlServer(builder.Configuration.GetConnectionString("WebSiteContext")));
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("MyPolicy",builder=>builder.AllowAnyOrigin()
+                                                 .AllowAnyHeader()
+                                                 .AllowAnyMethod());
+});
+
 
 var app = builder.Build();
 
@@ -23,6 +30,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("MyPolicy");
 
 app.UseAuthorization();
 

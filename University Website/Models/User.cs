@@ -15,12 +15,10 @@ namespace University_Website.Models
         [StringLength(100)]
         public string Password { get; set; }
 
-        [Required]
         [StringLength(50)]
         public string Role { get; set; }
 
-        [Required]
-        [EmailAddress]
+
         public string Email { get; set; }
 
         public string ProfilePicture { get; set; }

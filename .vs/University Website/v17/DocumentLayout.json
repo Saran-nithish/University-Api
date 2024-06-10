@@ -3,24 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\University Website\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|c:\\users\\admin\\source\\repos\\university website\\university website\\university website.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|solutionrelative:university website\\university website.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|c:\\users\\admin\\source\\repos\\university website\\university website\\models\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|solutionrelative:university website\\models\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|c:\\users\\admin\\source\\repos\\university website\\university website\\models\\academicprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|solutionrelative:university website\\models\\academicprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|c:\\users\\admin\\source\\repos\\university website\\university website\\models\\admission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|solutionrelative:university website\\models\\admission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|c:\\users\\admin\\source\\repos\\university website\\university website\\models\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|solutionrelative:university website\\models\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|c:\\users\\admin\\source\\repos\\university website\\university website\\controllers\\applicationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|solutionrelative:university website\\controllers\\applicationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|c:\\users\\admin\\source\\repos\\university website\\university website\\controllers\\admissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|solutionrelative:university website\\controllers\\admissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|c:\\users\\admin\\source\\repos\\university website\\university website\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|solutionrelative:university website\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|c:\\users\\admin\\source\\repos\\university website\\university website\\controllers\\feedbackscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|solutionrelative:university website\\controllers\\feedbackscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|c:\\users\\admin\\source\\repos\\university website\\university website\\models\\contactinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|solutionrelative:university website\\models\\contactinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|c:\\users\\admin\\source\\repos\\university website\\university website\\controllers\\contactinformationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|solutionrelative:university website\\controllers\\contactinformationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|c:\\users\\admin\\source\\repos\\university website\\university website\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|solutionrelative:university website\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|c:\\users\\admin\\source\\repos\\university website\\university website\\models\\academicprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|solutionrelative:university website\\models\\academicprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|c:\\users\\admin\\source\\repos\\university website\\university website\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|solutionrelative:university website\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|c:\\users\\admin\\source\\repos\\university website\\university website\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|solutionrelative:university website\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|c:\\users\\admin\\source\\repos\\university website\\university website\\models\\faculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|solutionrelative:university website\\models\\faculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|c:\\users\\admin\\source\\repos\\university website\\university website\\controllers\\facultiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|solutionrelative:university website\\controllers\\facultiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|c:\\users\\admin\\source\\repos\\university website\\university website\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|solutionrelative:university website\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47F21F37-184C-4A1F-9E8C-F8C0B577C6F2}|University Website\\University Website.csproj|c:\\users\\admin\\source\\repos\\university website\\university website\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,98 +69,224 @@
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "DockedHeight": 200,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationsController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Controllers\\ApplicationsController.cs",
+              "RelativeDocumentMoniker": "University Website\\Controllers\\ApplicationsController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Controllers\\ApplicationsController.cs",
+              "RelativeToolTip": "University Website\\Controllers\\ApplicationsController.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T11:27:09.679Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FeedbacksController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Controllers\\FeedbacksController.cs",
+              "RelativeDocumentMoniker": "University Website\\Controllers\\FeedbacksController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Controllers\\FeedbacksController.cs",
+              "RelativeToolTip": "University Website\\Controllers\\FeedbacksController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T11:19:31.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ContactInformation.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Models\\ContactInformation.cs",
+              "RelativeDocumentMoniker": "University Website\\Models\\ContactInformation.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Models\\ContactInformation.cs",
+              "RelativeToolTip": "University Website\\Models\\ContactInformation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T11:19:24.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ContactInformationsController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Controllers\\ContactInformationsController.cs",
+              "RelativeDocumentMoniker": "University Website\\Controllers\\ContactInformationsController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Controllers\\ContactInformationsController.cs",
+              "RelativeToolTip": "University Website\\Controllers\\ContactInformationsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T11:19:20.406Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "University Website",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\University Website.csproj",
-              "RelativeDocumentMoniker": "University Website\\University Website.csproj",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\University Website.csproj",
-              "RelativeToolTip": "University Website\\University Website.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-06T15:07:49.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Application.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Models\\Application.cs",
-              "RelativeDocumentMoniker": "University Website\\Models\\Application.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Models\\Application.cs",
-              "RelativeToolTip": "University Website\\Models\\Application.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAowCAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T15:02:33.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Admission.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Models\\Admission.cs",
-              "RelativeDocumentMoniker": "University Website\\Models\\Admission.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Models\\Admission.cs",
-              "RelativeToolTip": "University Website\\Models\\Admission.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T15:01:35.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Course.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Models\\Course.cs",
-              "RelativeDocumentMoniker": "University Website\\Models\\Course.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Models\\Course.cs",
-              "RelativeToolTip": "University Website\\Models\\Course.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T15:00:56.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "AcademicProgram.cs",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Models\\AcademicProgram.cs",
               "RelativeDocumentMoniker": "University Website\\Models\\AcademicProgram.cs",
               "ToolTip": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Models\\AcademicProgram.cs",
               "RelativeToolTip": "University Website\\Models\\AcademicProgram.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAzAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T14:59:35.002Z",
+              "WhenOpened": "2024-06-10T11:07:53.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Admission.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Models\\Admission.cs",
+              "RelativeDocumentMoniker": "University Website\\Models\\Admission.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Models\\Admission.cs",
+              "RelativeToolTip": "University Website\\Models\\Admission.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T11:07:32.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdmissionsController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Controllers\\AdmissionsController.cs",
+              "RelativeDocumentMoniker": "University Website\\Controllers\\AdmissionsController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Controllers\\AdmissionsController.cs",
+              "RelativeToolTip": "University Website\\Controllers\\AdmissionsController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAIwBAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T11:07:29.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "University Website\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Models\\Course.cs",
+              "RelativeToolTip": "University Website\\Models\\Course.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T13:06:20.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Controllers\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "University Website\\Controllers\\DepartmentsController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Controllers\\DepartmentsController.cs",
+              "RelativeToolTip": "University Website\\Controllers\\DepartmentsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T14:40:15.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Application.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Models\\Application.cs",
+              "RelativeDocumentMoniker": "University Website\\Models\\Application.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Models\\Application.cs",
+              "RelativeToolTip": "University Website\\Models\\Application.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T13:52:55.738Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Models\\Feedback.cs",
+              "RelativeDocumentMoniker": "University Website\\Models\\Feedback.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Models\\Feedback.cs",
+              "RelativeToolTip": "University Website\\Models\\Feedback.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T13:52:33.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "University Website\\Models\\Department.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Models\\Department.cs",
+              "RelativeToolTip": "University Website\\Models\\Department.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T13:52:27.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Faculty.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Models\\Faculty.cs",
+              "RelativeDocumentMoniker": "University Website\\Models\\Faculty.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Models\\Faculty.cs",
+              "RelativeToolTip": "University Website\\Models\\Faculty.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T13:52:14.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FacultiesController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Controllers\\FacultiesController.cs",
+              "RelativeDocumentMoniker": "University Website\\Controllers\\FacultiesController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Controllers\\FacultiesController.cs",
+              "RelativeToolTip": "University Website\\Controllers\\FacultiesController.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAYwFgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T13:52:11.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "University Website\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "University Website\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAAwI8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T10:34:22.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Models\\User.cs",
               "RelativeDocumentMoniker": "University Website\\Models\\User.cs",
               "ToolTip": "C:\\Users\\admin\\source\\repos\\University Website\\University Website\\Models\\User.cs",
               "RelativeToolTip": "University Website\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T14:58:33.134Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T05:37:08.395Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }
