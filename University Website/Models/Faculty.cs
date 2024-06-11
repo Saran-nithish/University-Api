@@ -24,6 +24,5 @@ namespace University_Website.Models
 
         public string OfficeHours { get; set; }
 
-        public Department Department { get; set; }
     }
 }

@@ -20,6 +20,5 @@ namespace University_Website.Models
 
         public DateTime ResponseDate { get; set; }
 
-        public User User { get; set; }
     }
 }

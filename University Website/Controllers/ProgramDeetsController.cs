@@ -13,47 +13,47 @@ namespace University_Website.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [EnableCors("MyPolicy")]
-    public class CoursesController : ControllerBase
+    public class ProgramDeetsController : ControllerBase
     {
         private readonly UniversityDBContext _context;
 
-        public CoursesController(UniversityDBContext context)
+        public ProgramDeetsController(UniversityDBContext context)
         {
             _context = context;
         }
 
-        // GET: api/Courses
+        // GET: api/ProgramDeets
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Course>>> GetCourses()
+        public async Task<ActionResult<IEnumerable<ProgramDeets>>> GetProgramDetails()
         {
-            return await _context.Courses.ToListAsync();
+            return await _context.ProgramDetails.ToListAsync();
         }
 
-        // GET: api/Courses/5
+        // GET: api/ProgramDeets/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Course>> GetCourse(int id)
+        public async Task<ActionResult<ProgramDeets>> GetProgramDeets(int id)
         {
-            var course = await _context.Courses.FindAsync(id);
+            var programDeets = await _context.ProgramDetails.FindAsync(id);
 
-            if (course == null)
+            if (programDeets == null)
             {
                 return NotFound();
             }
 
-            return course;
+            return programDeets;
         }
 
-        // PUT: api/Courses/5
+        // PUT: api/ProgramDeets/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutCourse(int id, Course course)
+        public async Task<IActionResult> PutProgramDeets(int id, ProgramDeets programDeets)
         {
-            if (id != course.CourseId)
+            if (id != programDeets.ProgramId)
             {
                 return BadRequest();
             }
 
-            _context.Entry(course).State = EntityState.Modified;
+            _context.Entry(programDeets).State = EntityState.Modified;
 
             try
             {
@@ -61,7 +61,7 @@ namespace University_Website.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!CourseExists(id))
+                if (!ProgramDeetsExists(id))
                 {
                     return NotFound();
                 }
@@ -74,36 +74,36 @@ namespace University_Website.Controllers
             return NoContent();
         }
 
-        // POST: api/Courses
+        // POST: api/ProgramDeets
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Course>> PostCourse(Course course)
+        public async Task<ActionResult<ProgramDeets>> PostProgramDeets(ProgramDeets programDeets)
         {
-            _context.Courses.Add(course);
+            _context.ProgramDetails.Add(programDeets);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetCourse", new { id = course.CourseId }, course);
+            return CreatedAtAction("GetProgramDeets", new { id = programDeets.ProgramId }, programDeets);
         }
 
-        // DELETE: api/Courses/5
+        // DELETE: api/ProgramDeets/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteCourse(int id)
+        public async Task<IActionResult> DeleteProgramDeets(int id)
         {
-            var course = await _context.Courses.FindAsync(id);
-            if (course == null)
+            var programDeets = await _context.ProgramDetails.FindAsync(id);
+            if (programDeets == null)
             {
                 return NotFound();
             }
 
-            _context.Courses.Remove(course);
+            _context.ProgramDetails.Remove(programDeets);
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
 
-        private bool CourseExists(int id)
+        private bool ProgramDeetsExists(int id)
         {
-            return _context.Courses.Any(e => e.CourseId == id);
+            return _context.ProgramDetails.Any(e => e.ProgramId == id);
         }
     }
 }

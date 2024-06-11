@@ -46,31 +46,16 @@ namespace University_Website.Controllers
         // PUT: api/Admissions/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutAdmission(int id, Admission admission)
+        public async Task<IActionResult> UpdateAdmissionStatus(int id, Admission updatedAdmission)
         {
-            if (id != admission.AdmissionId)
+            var admission = await _context.Admissions.FindAsync(id);
+            if (admission == null)
             {
-                return BadRequest();
+                return NotFound();
             }
 
-            _context.Entry(admission).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!AdmissionExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
+            admission.Status = updatedAdmission.Status;
+            await _context.SaveChangesAsync();
             return NoContent();
         }
 

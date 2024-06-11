@@ -13,47 +13,47 @@ namespace University_Website.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [EnableCors("MyPolicy")]
-    public class StaffsController : ControllerBase
+    public class FinancialAidsController : ControllerBase
     {
         private readonly UniversityDBContext _context;
 
-        public StaffsController(UniversityDBContext context)
+        public FinancialAidsController(UniversityDBContext context)
         {
             _context = context;
         }
 
-        // GET: api/Staffs
+        // GET: api/FinancialAids
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Staff>>> GetStaff()
+        public async Task<ActionResult<IEnumerable<FinancialAid>>> GetFinancialAid()
         {
-            return await _context.Staff.ToListAsync();
+            return await _context.FinancialAid.ToListAsync();
         }
 
-        // GET: api/Staffs/5
+        // GET: api/FinancialAids/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Staff>> GetStaff(int id)
+        public async Task<ActionResult<FinancialAid>> GetFinancialAid(int id)
         {
-            var staff = await _context.Staff.FindAsync(id);
+            var financialAid = await _context.FinancialAid.FindAsync(id);
 
-            if (staff == null)
+            if (financialAid == null)
             {
                 return NotFound();
             }
 
-            return staff;
+            return financialAid;
         }
 
-        // PUT: api/Staffs/5
+        // PUT: api/FinancialAids/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutStaff(int id, Staff staff)
+        public async Task<IActionResult> PutFinancialAid(int id, FinancialAid financialAid)
         {
-            if (id != staff.StaffId)
+            if (id != financialAid.AidId)
             {
                 return BadRequest();
             }
 
-            _context.Entry(staff).State = EntityState.Modified;
+            _context.Entry(financialAid).State = EntityState.Modified;
 
             try
             {
@@ -61,7 +61,7 @@ namespace University_Website.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!StaffExists(id))
+                if (!FinancialAidExists(id))
                 {
                     return NotFound();
                 }
@@ -74,36 +74,36 @@ namespace University_Website.Controllers
             return NoContent();
         }
 
-        // POST: api/Staffs
+        // POST: api/FinancialAids
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Staff>> PostStaff(Staff staff)
+        public async Task<ActionResult<FinancialAid>> PostFinancialAid(FinancialAid financialAid)
         {
-            _context.Staff.Add(staff);
+            _context.FinancialAid.Add(financialAid);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetStaff", new { id = staff.StaffId }, staff);
+            return CreatedAtAction("GetFinancialAid", new { id = financialAid.AidId }, financialAid);
         }
 
-        // DELETE: api/Staffs/5
+        // DELETE: api/FinancialAids/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteStaff(int id)
+        public async Task<IActionResult> DeleteFinancialAid(int id)
         {
-            var staff = await _context.Staff.FindAsync(id);
-            if (staff == null)
+            var financialAid = await _context.FinancialAid.FindAsync(id);
+            if (financialAid == null)
             {
                 return NotFound();
             }
 
-            _context.Staff.Remove(staff);
+            _context.FinancialAid.Remove(financialAid);
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
 
-        private bool StaffExists(int id)
+        private bool FinancialAidExists(int id)
         {
-            return _context.Staff.Any(e => e.StaffId == id);
+            return _context.FinancialAid.Any(e => e.AidId == id);
         }
     }
 }

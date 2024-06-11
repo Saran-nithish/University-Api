@@ -23,6 +23,5 @@ namespace University_Website.Models
         [StringLength(100)]
         public string Category { get; set; }
 
-        public User Author { get; set; }
     }
 }

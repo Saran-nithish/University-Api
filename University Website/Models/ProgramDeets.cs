@@ -2,25 +2,27 @@
 
 namespace University_Website.Models
 {
-    public class AcademicProgram
+    public class ProgramDeets
     {
         [Key]
         public int ProgramId { get; set; }
 
         [Required]
-        [StringLength(200)]
         public string Name { get; set; }
 
         [Required]
-        [StringLength(50)]
         public string Type { get; set; }
 
+        [Required]
         public string Description { get; set; }
 
+        [Required]
         public string AdmissionRequirements { get; set; }
 
+        [Required]
         public string CurriculumDetails { get; set; }
 
+        [Required]
         public string FacultyProfiles { get; set; }
     }
 }
